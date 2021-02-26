@@ -1,0 +1,29 @@
+{
+  "name": "snowpack21",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "serve": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "snowpack": {
+    "mount": {
+      "src": "/"
+    },
+    "optimize": {
+      "bundle": true,
+      "minify": true,
+      "target": "es2018"
+    }
+  }
+}
