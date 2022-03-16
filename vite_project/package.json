@@ -1,0 +1,16 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite serve src/",
+    "build": "vite build --outDir ../dist/ src/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
