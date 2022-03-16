@@ -1,0 +1,19 @@
+{
+  "name": "parcel_project",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.3.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
